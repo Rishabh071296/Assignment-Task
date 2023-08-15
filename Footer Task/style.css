@@ -4,39 +4,49 @@ font-family: 'Poppins', sans-serif;
 margin: 0%;
 padding: 0%;
 }
+
 .footer{
    display: flex;
    justify-content: space-between;
-   background-color: #000;
-   margin-top: 490px;
+   background-color: #021120;
+   margin-top: 435px;
    padding: 3px;
-   font-size: 20px;
-   
-  
- 
+   font-size: 15px; 
+}
 
-}
 .footer-logo img{
-    border-radius: 50%;
-  
-    
+    border-radius: 50%; 
 }
-.A-footer{
-    margin: 5% 2%;
-    
+
+.Address-footer{
+ margin: 2% 2%; 
 }
 
 .Products{
-    margin: 5% 2%;
+    margin: 2% 2%; 
     padding: 2px;
+    
 }
-.Quick-Links{
-    margin: 5% 2%;
+.Products p{
+      padding: 7px;
 }
-.footer-logo{
-    margin: 5% 7%;
 
+.Quick-Links{
+    margin: 2% 2%; 
 }
 .Quick-Links p{
       padding: 7px;
 }
+
+.footer-logo{
+    margin: 2% 2%; 
+
+}
+.media-Tag a{
+  width: 30px;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 2px;
+}
+
+
