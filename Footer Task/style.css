@@ -1,4 +1,42 @@
 *{
-    background-color: #000;
-    color: #fff;
+ color: #fff;
+font-family: 'Poppins', sans-serif;
+margin: 0%;
+padding: 0%;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+   background-color: #000;
+   margin-top: 490px;
+   padding: 3px;
+   font-size: 20px;
+   
+  
+ 
+
+}
+.footer-logo img{
+    border-radius: 50%;
+  
+    
+}
+.A-footer{
+    margin: 5% 2%;
+    
+}
+
+.Products{
+    margin: 5% 2%;
+    padding: 2px;
+}
+.Quick-Links{
+    margin: 5% 2%;
+}
+.footer-logo{
+    margin: 5% 7%;
+
+}
+.Quick-Links p{
+      padding: 7px;
 }
