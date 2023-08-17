@@ -23,6 +23,9 @@ nav{
   align-items: center;
   height: calc(4rem + 1px);
   gap: 50px;
+  font-size:15px;
+  margin-left: 30px;
+  
 }
 
  .header-info ul{
@@ -30,23 +33,49 @@ nav{
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 20px
+  gap: 30px
 }  
 
 .Header-button{
  display: flex;
- 
+ gap: 20px;
+ position: absolute;
+ top: 80px;
+right: 160px;
+}   
 
-}  
+#Login-btn{
+  border: none;
+  background: none;
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#Login-btn:hover{
+  color: rgb(10, 176, 132);
+}
+#btn-2 span{
+  font-size: larger;
+  font-weight: 700;
+}
+#btn-2{
+  background-color:rgb(14, 116, 109);
+  height:37px ;
+  width: 190px;
+  border-radius: 5px;
+  color: #fff;
+}
+#btn-2:hover{
+  color: rgb(10, 176, 132);
+}
 
 
 
 
 
 
-/* .header-button span {
-  color: rgba(64,215,174,255);
- } */
+
+
 
 
 
